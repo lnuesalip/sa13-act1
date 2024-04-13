@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.subimg {
+    background-image: url('image1.jpg');
+}
+
+.subimg:hover {
+    background-image: url('image1.jpg');
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+p:hover {
+    color: darkgreen;
+}
+
+
+h1 {
+    color: rgb(42, 73, 49);
+}
+
+hr.rounded {
+    border-top: 5px solid rgb(107, 93, 75);
+}
+
+h2 {
+    color: rgb(158, 46, 46);
+    margin-bottom: 0;
+}
+
+td {
+    margin: 0;
+    color:rgb(31, 59, 38);
+    font-size: 17px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Learra's Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <style>body, h1, h2 {font-family: Trebuchet MS}</style>
+</head>
+
+<body>
+    <h1>Personal Portfolio</h1>
+
+    <nav>
+        <a href="home-page.html">Home</a> |
+        <a href="about-page.html">About</a> |
+        <a href="#gallery-page">Portfolio</a> |
+        <a href="#contact-page">Contact</a>
+    </nav>
+
+    <h2>Welcome</h2>
+    <p>This is Learra's portfolio of photographs.</p>
+
+    <h2>About</h2>
+    <p>Learra has been taking pictures since 2003. With over 20 years of experience, Learra's photography interests and focus range from landscapes to weddings to animals.</p>
+
+
+    <h2 id="gallery-page">Portfolio</h2>
+    <div class="container">
+        <div class="subimg">
+            <img src="image2.jpg" height=250>
+        </div>
+        <div>
+            <img src="image3.jpg" height=250>
+        </div>
+        <div>
+            <img src="image5.JPG" height=250>
+        </div>
+        <div>
+            <img src="image1.jpg" height=250>
+        </div>
+        <div>
+            <img src="image4.jpg" height=250>
+        </div>
+    </div>
+
+    <h2 id="contact-page">Contact</h2>
+    <div class="contact">
+        <form action="submit.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" placeholder="Your name">
+
+            <label for="Contact">Contact</label>
+            <textarea name="message" rows="4" cols="50" placeholder="Your message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+    <p>Copyright © 2024</p>
+</footer>
+
+</html>
