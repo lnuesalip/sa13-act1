@@ -4,14 +4,6 @@
     justify-content: space-evenly;
 }
 
-.subimg {
-    background-image: url('image1.jpg');
-}
-
-.subimg:hover {
-    background-image: url('image1.jpg');
-}
-
 input[type=text], select, textarea {
     width: 100%;
     margin-top: 5px;
@@ -38,6 +30,10 @@ hr.rounded {
 h2 {
     color: rgb(158, 46, 46);
     margin-bottom: 0;
+}
+
+h3:hover {
+    color: greenyellow;
 }
 
 td {
